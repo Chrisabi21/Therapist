@@ -4,7 +4,7 @@ function HeroSection() {
   return (
     <section id="hero" className={styles.hero}>
       <div className={styles.heroText}>
-        <p className={styles.eyebrow}>Chartered Psychotherapist · BACP Accredited</p>
+        {/* <p className={styles.eyebrow}>Chartered Psychotherapist · BACP Accredited</p> */}
         <h1 className={styles.heroHeading}>
           A place to feel
           <br />
@@ -28,7 +28,7 @@ function HeroSection() {
       <div className={styles.heroImageCol}>
         <div className={styles.heroImgWrap}>
           <img
-            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=700&q=80&auto=format&fit=crop"
+            src="/images/Mum.png"
             alt="Dr. Claire Ellis, psychotherapist"
             className={styles.heroImg}
           />

@@ -5,7 +5,7 @@ function Navbar() {
     <header className={styles.navbar}>
       <div className={styles.navInner}>
         <a href="#hero" className={styles.navLogo}>
-          Dr. Claire Ellis
+          Adelola Abiodun
         </a>
         <nav className={styles.navLinks}>
           <a href="#about">About</a>
