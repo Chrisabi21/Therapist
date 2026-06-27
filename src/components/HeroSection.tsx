@@ -1,4 +1,5 @@
 import styles from "../pages/Home.module.css";
+import heroImage from "../assets/images/Mum.png";
 
 function HeroSection() {
   return (
@@ -28,7 +29,7 @@ function HeroSection() {
       <div className={styles.heroImageCol}>
         <div className={styles.heroImgWrap}>
           <img
-            src="/images/Mum.png"
+            src={heroImage}
             alt="Dr. Claire Ellis, psychotherapist"
             className={styles.heroImg}
           />
